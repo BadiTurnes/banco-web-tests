@@ -31,7 +31,7 @@ describe('Transferencia', () => {
         cy.realizarTransferencia('Carlos Souza', 'Fernanda Costa', '5000.01')
         
         // Assert
-        //cy.verificarMensagemNoToast('Autencicação necessaria para transferência acima de R$5.000,00.')
-        cy.verificarMensagemNoToast('Erro na transferência.')
+        cy.verificarMensagemNoToast('Autencicação necessaria para transferência acima de R$5.000,00.')
+        //cy.verificarMensagemNoToast('Erro na transferência.')
     })
 })

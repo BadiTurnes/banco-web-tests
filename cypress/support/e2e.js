@@ -15,3 +15,6 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+
+// Relatório em teste em HTML
+import 'cypress-mochawesome-reporter/register'
